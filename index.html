@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Conversión de Monedas</title>
-</head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
 <body>
-    
+    <div class="container">
+        <h1 class="titulo">Conversión de Monedas</h1>
+        <div class="rate">
+            <div class="rate1"></div>
+            <div class="rate2"></div>
+        </div>
+
+        <!-- selección de monedas -->
+        <main>
+            <div class="inicial">
+                <div class="options">
+                    <select name="" id=""></select>
+                    <div class="input">
+                        <input type="number" name="" id="" value=""> 
+                    </div>
+                </div>
+                <span class="material-icons swap">
+                    swap_horiz
+                </span> 
+                <!-- cambio de moneda -->
+                <div class="target">
+                    <div class="options">
+                        <select name="" id=""></select>
+                        <div class="input">
+                            <input type="number" name="" id="" value="" disabled>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <button class="result">Resultado</button>
+    </div>
+
+
+    <script src="js/conversion.js"></script>
 </body>
 </html>
